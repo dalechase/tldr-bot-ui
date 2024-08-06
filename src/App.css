@@ -1,0 +1,77 @@
+/* App.css */
+.App {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(49, 49, 49);
+}
+
+.App-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chat-container {
+  height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* User Message */
+.user {
+  background-color: #e6f2ff;
+  text-align: right;
+}
+
+/* Assistant Message */
+.assistant {
+  background-color: #f0f0f0;
+}
+
+.input-form {
+  display: flex;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2984b8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c6b96;
+}
+
+.upload-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.upload-section input[type="file"] {
+  margin-right: 10px;
+}
+
+.loading-gif {
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+}
